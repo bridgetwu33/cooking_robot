@@ -1,9 +1,0 @@
-/home/bridgetw/robo_ws/build/six_dof_arm/CMakeFiles/uninstall.dir
-/home/bridgetw/robo_ws/build/six_dof_arm/CMakeFiles/six_dof_arm_uninstall.dir
-/home/bridgetw/robo_ws/build/six_dof_arm/CMakeFiles/test.dir
-/home/bridgetw/robo_ws/build/six_dof_arm/CMakeFiles/edit_cache.dir
-/home/bridgetw/robo_ws/build/six_dof_arm/CMakeFiles/rebuild_cache.dir
-/home/bridgetw/robo_ws/build/six_dof_arm/CMakeFiles/list_install_components.dir
-/home/bridgetw/robo_ws/build/six_dof_arm/CMakeFiles/install.dir
-/home/bridgetw/robo_ws/build/six_dof_arm/CMakeFiles/install/local.dir
-/home/bridgetw/robo_ws/build/six_dof_arm/CMakeFiles/install/strip.dir

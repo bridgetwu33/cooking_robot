@@ -1,6 +1,0 @@
-Invoking command in '/home/bridgetw/robo_ws/build/six_dof_arm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bridgetw/robo_ws/src/six_dof_arm -DCMAKE_INSTALL_PREFIX=/home/bridgetw/robo_ws/install/six_dof_arm
-Invoked command in '/home/bridgetw/robo_ws/build/six_dof_arm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bridgetw/robo_ws/src/six_dof_arm -DCMAKE_INSTALL_PREFIX=/home/bridgetw/robo_ws/install/six_dof_arm
-Invoking command in '/home/bridgetw/robo_ws/build/six_dof_arm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bridgetw/robo_ws/build/six_dof_arm -- -j8 -l8
-Invoked command in '/home/bridgetw/robo_ws/build/six_dof_arm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bridgetw/robo_ws/build/six_dof_arm -- -j8 -l8
-Invoking command in '/home/bridgetw/robo_ws/build/six_dof_arm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bridgetw/robo_ws/build/six_dof_arm
-Invoked command in '/home/bridgetw/robo_ws/build/six_dof_arm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bridgetw/robo_ws/build/six_dof_arm

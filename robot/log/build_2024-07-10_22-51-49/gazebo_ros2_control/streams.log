@@ -1,6 +1,0 @@
-[0.028s] Invoking command in '/home/bridgetw/robot/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bridgetw/robot/build/gazebo_ros2_control -- -j8 -l8
-[0.075s] [0mCMake Error: The current CMakeCache.txt directory /home/bridgetw/robot/build/gazebo_ros2_control/CMakeCache.txt is different than the directory /home/bridgetw/robo_ws/build/gazebo_ros2_control where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[0.096s] [0mCMake Error: The source directory "/home/bridgetw/robo_ws/src/gazebo_ros2_control" does not exist.
-[0.096s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.102s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
-[0.108s] Invoked command in '/home/bridgetw/robot/build/gazebo_ros2_control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bridgetw/robot/build/gazebo_ros2_control -- -j8 -l8
