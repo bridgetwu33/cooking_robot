@@ -1,0 +1,293 @@
+[0.000000] (-) TimerEvent: {}
+[0.000226] (ur_description) JobQueued: {'identifier': 'ur_description', 'dependencies': OrderedDict()}
+[0.000347] (ur_description) JobStarted: {'identifier': 'ur_description'}
+[0.010005] (ur_description) JobProgress: {'identifier': 'ur_description', 'progress': 'cmake'}
+[0.010959] (ur_description) Command: {'cmd': ['/usr/bin/cmake', '/home/bridgetw/cooking_robot/src/Universal_Robots_ROS2_Description', '-DCMAKE_INSTALL_PREFIX=/home/bridgetw/cooking_robot/install/ur_description'], 'cwd': '/home/bridgetw/cooking_robot/build/ur_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bridgetw'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bridgetw'), ('OLDPWD', '/home/bridgetw/cooking_robot/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bridgetw/cooking_robot/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bridgetw'), ('NAME', 'bridget-book'), ('WSL_INTEROP', '/run/WSL/561_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/Amazon Corretto/jdk11.0.15_9/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/devtools/apache-maven-3.6.3/bin:/mnt/c/Program Files/Amazon/AWSCLI/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Users/bmwu0/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm 2022.2.4/bin:/mnt/c/Users/bmwu0/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/bmwu0/AppData/Roaming/npm:/mnt/c/Program Files/OpenSSL-Win64/bin:/mnt/c/opencv/x64/vc16/bin:/mnt/c/xmllint/bin:/mnt/c/Program Files/Graphviz/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bridgetw/cooking_robot/build/ur_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097938] (-) TimerEvent: {}
+[0.198332] (-) TimerEvent: {}
+[0.298933] (-) TimerEvent: {}
+[0.333403] (ur_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.399094] (-) TimerEvent: {}
+[0.499611] (-) TimerEvent: {}
+[0.600128] (-) TimerEvent: {}
+[0.700701] (-) TimerEvent: {}
+[0.801286] (-) TimerEvent: {}
+[0.901879] (-) TimerEvent: {}
+[1.002448] (-) TimerEvent: {}
+[1.102966] (-) TimerEvent: {}
+[1.203562] (-) TimerEvent: {}
+[1.304099] (-) TimerEvent: {}
+[1.393885] (ur_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.404342] (-) TimerEvent: {}
+[1.504861] (-) TimerEvent: {}
+[1.605404] (-) TimerEvent: {}
+[1.705879] (-) TimerEvent: {}
+[1.806460] (-) TimerEvent: {}
+[1.907017] (-) TimerEvent: {}
+[2.007605] (-) TimerEvent: {}
+[2.108153] (-) TimerEvent: {}
+[2.208918] (-) TimerEvent: {}
+[2.297943] (ur_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.309051] (-) TimerEvent: {}
+[2.409521] (-) TimerEvent: {}
+[2.510008] (-) TimerEvent: {}
+[2.610512] (-) TimerEvent: {}
+[2.675770] (ur_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.686376] (ur_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.686790] (ur_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.687488] (ur_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.692154] (ur_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.710722] (-) TimerEvent: {}
+[2.811191] (-) TimerEvent: {}
+[2.911670] (-) TimerEvent: {}
+[2.974922] (ur_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.985382] (ur_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.985760] (ur_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.986444] (ur_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.989017] (ur_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.011914] (-) TimerEvent: {}
+[3.112673] (-) TimerEvent: {}
+[3.209466] (ur_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.212876] (-) TimerEvent: {}
+[3.313472] (-) TimerEvent: {}
+[3.320751] (ur_description) StdoutLine: {'line': b'-- Found ament_cmake_pytest: 1.3.9 (/opt/ros/humble/share/ament_cmake_pytest/cmake)\n'}
+[3.413688] (-) TimerEvent: {}
+[3.514080] (-) TimerEvent: {}
+[3.614517] (-) TimerEvent: {}
+[3.714963] (-) TimerEvent: {}
+[3.815379] (-) TimerEvent: {}
+[3.916000] (-) TimerEvent: {}
+[4.016488] (-) TimerEvent: {}
+[4.117096] (-) TimerEvent: {}
+[4.188657] (ur_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.191835] (ur_description) StdoutLine: {'line': b'-- Generating done\n'}
+[4.193057] (ur_description) StdoutLine: {'line': b'-- Build files have been written to: /home/bridgetw/cooking_robot/build/ur_description\n'}
+[4.203381] (ur_description) CommandEnded: {'returncode': 0}
+[4.204325] (ur_description) JobProgress: {'identifier': 'ur_description', 'progress': 'build'}
+[4.205834] (ur_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bridgetw/cooking_robot/build/ur_description', '--', '-j8', '-l8'], 'cwd': '/home/bridgetw/cooking_robot/build/ur_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bridgetw'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bridgetw'), ('OLDPWD', '/home/bridgetw/cooking_robot/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bridgetw/cooking_robot/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bridgetw'), ('NAME', 'bridget-book'), ('WSL_INTEROP', '/run/WSL/561_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/Amazon Corretto/jdk11.0.15_9/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/devtools/apache-maven-3.6.3/bin:/mnt/c/Program Files/Amazon/AWSCLI/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Users/bmwu0/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm 2022.2.4/bin:/mnt/c/Users/bmwu0/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/bmwu0/AppData/Roaming/npm:/mnt/c/Program Files/OpenSSL-Win64/bin:/mnt/c/opencv/x64/vc16/bin:/mnt/c/xmllint/bin:/mnt/c/Program Files/Graphviz/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bridgetw/cooking_robot/build/ur_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.217283] (-) TimerEvent: {}
+[4.245556] (ur_description) CommandEnded: {'returncode': 0}
+[4.273669] (ur_description) JobProgress: {'identifier': 'ur_description', 'progress': 'install'}
+[4.284569] (ur_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bridgetw/cooking_robot/build/ur_description'], 'cwd': '/home/bridgetw/cooking_robot/build/ur_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bridgetw'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bridgetw'), ('OLDPWD', '/home/bridgetw/cooking_robot/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bridgetw/cooking_robot/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bridgetw'), ('NAME', 'bridget-book'), ('WSL_INTEROP', '/run/WSL/561_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/Amazon Corretto/jdk11.0.15_9/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/devtools/apache-maven-3.6.3/bin:/mnt/c/Program Files/Amazon/AWSCLI/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Users/bmwu0/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm 2022.2.4/bin:/mnt/c/Users/bmwu0/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/bmwu0/AppData/Roaming/npm:/mnt/c/Program Files/OpenSSL-Win64/bin:/mnt/c/opencv/x64/vc16/bin:/mnt/c/xmllint/bin:/mnt/c/Program Files/Graphviz/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bridgetw/cooking_robot/build/ur_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.294525] (ur_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.294799] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config\n'}
+[4.295407] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur30\n'}
+[4.295908] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur30/joint_limits.yaml\n'}
+[4.296309] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur30/default_kinematics.yaml\n'}
+[4.296976] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur30/physical_parameters.yaml\n'}
+[4.297202] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur30/visual_parameters.yaml\n'}
+[4.297582] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur16e\n'}
+[4.297954] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml\n'}
+[4.298413] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml\n'}
+[4.298962] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml\n'}
+[4.299428] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml\n'}
+[4.299980] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur20\n'}
+[4.300263] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml\n'}
+[4.300835] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml\n'}
+[4.301195] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml\n'}
+[4.301787] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml\n'}
+[4.302077] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur10e\n'}
+[4.302216] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml\n'}
+[4.302307] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml\n'}
+[4.302392] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml\n'}
+[4.302482] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml\n'}
+[4.302779] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur3e\n'}
+[4.303112] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml\n'}
+[4.303432] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml\n'}
+[4.303749] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml\n'}
+[4.304531] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml\n'}
+[4.305104] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur5\n'}
+[4.306165] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml\n'}
+[4.306531] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml\n'}
+[4.307202] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml\n'}
+[4.307991] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml\n'}
+[4.308723] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur5e\n'}
+[4.309449] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml\n'}
+[4.309771] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml\n'}
+[4.310304] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml\n'}
+[4.310601] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml\n'}
+[4.310922] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur10\n'}
+[4.311090] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml\n'}
+[4.311261] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml\n'}
+[4.311429] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml\n'}
+[4.311582] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml\n'}
+[4.311747] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/initial_positions.yaml\n'}
+[4.311887] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur3\n'}
+[4.312254] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml\n'}
+[4.312436] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml\n'}
+[4.312600] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml\n'}
+[4.312744] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml\n'}
+[4.313089] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/launch\n'}
+[4.313253] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/launch/view_ur.launch.py\n'}
+[4.313381] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/launch/__pycache__\n'}
+[4.313519] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/launch/__pycache__/view_ur.launch.cpython-310.pyc\n'}
+[4.313660] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes\n'}
+[4.313781] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur30\n'}
+[4.313897] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur30/visual\n'}
+[4.314011] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur30/visual/UR30_DIFF_8bit_2K.png\n'}
+[4.314125] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur30/visual/forearm.dae\n'}
+[4.314462] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur30/visual/upperarm.dae\n'}
+[4.315491] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur30/LICENSE.txt\n'}
+[4.315930] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur30/collision\n'}
+[4.316071] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur30/collision/upperarm.stl\n'}
+[4.316360] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur30/collision/forearm.stl\n'}
+[4.316608] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur16e\n'}
+[4.316888] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur16e/visual\n'}
+[4.317187] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae\n'}
+[4.317319] (-) TimerEvent: {}
+[4.318814] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae\n'}
+[4.322150] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur16e/collision\n'}
+[4.322511] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl\n'}
+[4.323757] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl\n'}
+[4.324264] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur20\n'}
+[4.324947] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur20/visual\n'}
+[4.325071] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae\n'}
+[4.325554] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae\n'}
+[4.326241] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae\n'}
+[4.326564] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae\n'}
+[4.327908] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae\n'}
+[4.330827] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae\n'}
+[4.331444] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae\n'}
+[4.332822] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png\n'}
+[4.334771] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt\n'}
+[4.335355] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur20/collision\n'}
+[4.335618] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl\n'}
+[4.336178] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl\n'}
+[4.336320] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl\n'}
+[4.336433] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl\n'}
+[4.336739] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl\n'}
+[4.337240] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl\n'}
+[4.337364] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl\n'}
+[4.337735] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10e\n'}
+[4.338063] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10e/visual\n'}
+[4.338179] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae\n'}
+[4.339237] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae\n'}
+[4.341887] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae\n'}
+[4.342599] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae\n'}
+[4.344102] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae\n'}
+[4.348655] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae\n'}
+[4.350294] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae\n'}
+[4.351092] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10e/collision\n'}
+[4.351337] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl\n'}
+[4.351933] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl\n'}
+[4.352461] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl\n'}
+[4.352751] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl\n'}
+[4.352948] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl\n'}
+[4.353326] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl\n'}
+[4.353870] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl\n'}
+[4.354047] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3e\n'}
+[4.354189] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3e/visual\n'}
+[4.354335] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae\n'}
+[4.355481] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae\n'}
+[4.358036] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae\n'}
+[4.358425] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae\n'}
+[4.359702] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae\n'}
+[4.363548] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae\n'}
+[4.366464] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae\n'}
+[4.367087] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3e/collision\n'}
+[4.367272] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl\n'}
+[4.367760] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl\n'}
+[4.367972] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl\n'}
+[4.368325] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl\n'}
+[4.368669] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl\n'}
+[4.368991] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl\n'}
+[4.369145] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl\n'}
+[4.369330] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5\n'}
+[4.369628] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5/visual\n'}
+[4.369693] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae\n'}
+[4.370403] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae\n'}
+[4.372353] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae\n'}
+[4.372981] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae\n'}
+[4.375249] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae\n'}
+[4.377873] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae\n'}
+[4.379751] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae\n'}
+[4.380188] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5/collision\n'}
+[4.380601] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl\n'}
+[4.380767] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl\n'}
+[4.381193] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl\n'}
+[4.381582] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl\n'}
+[4.381904] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl\n'}
+[4.382516] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl\n'}
+[4.382905] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl\n'}
+[4.383295] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5e\n'}
+[4.383692] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5e/visual\n'}
+[4.384243] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae\n'}
+[4.384656] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae\n'}
+[4.387425] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae\n'}
+[4.388304] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae\n'}
+[4.391114] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae\n'}
+[4.397272] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae\n'}
+[4.400416] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae\n'}
+[4.401007] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5e/collision\n'}
+[4.401204] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl\n'}
+[4.401704] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl\n'}
+[4.402427] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl\n'}
+[4.403429] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl\n'}
+[4.404023] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl\n'}
+[4.404321] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl\n'}
+[4.404536] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl\n'}
+[4.405092] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10\n'}
+[4.405243] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10/visual\n'}
+[4.405468] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae\n'}
+[4.405819] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae\n'}
+[4.407059] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae\n'}
+[4.407366] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae\n'}
+[4.409895] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae\n'}
+[4.411760] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae\n'}
+[4.414122] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae\n'}
+[4.414869] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10/collision\n'}
+[4.415418] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl\n'}
+[4.415586] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl\n'}
+[4.415721] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl\n'}
+[4.416250] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl\n'}
+[4.416497] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl\n'}
+[4.416881] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl\n'}
+[4.417075] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl\n'}
+[4.417361] (-) TimerEvent: {}
+[4.417516] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3\n'}
+[4.417795] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3/visual\n'}
+[4.417945] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae\n'}
+[4.418601] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae\n'}
+[4.420406] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae\n'}
+[4.421186] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae\n'}
+[4.422051] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae\n'}
+[4.424140] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae\n'}
+[4.425140] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae\n'}
+[4.425266] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3/collision\n'}
+[4.425689] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl\n'}
+[4.426162] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl\n'}
+[4.426298] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl\n'}
+[4.426666] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl\n'}
+[4.427160] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl\n'}
+[4.427417] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl\n'}
+[4.428060] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl\n'}
+[4.428967] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/rviz\n'}
+[4.429388] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/rviz/view_robot.rviz\n'}
+[4.429591] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/urdf\n'}
+[4.430058] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro\n'}
+[4.430396] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/urdf/ur.urdf.xacro\n'}
+[4.430582] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/urdf/inc\n'}
+[4.430989] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro\n'}
+[4.431219] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro\n'}
+[4.431324] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/urdf/ur_macro.xacro\n'}
+[4.431584] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/test\n'}
+[4.431851] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py\n'}
+[4.432209] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/test/test_view_ur_launch.py\n'}
+[4.433127] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description\n'}
+[4.433633] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description\n'}
+[4.434130] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/environment/ament_prefix_path.sh\n'}
+[4.434906] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv\n'}
+[4.435395] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/environment/path.sh\n'}
+[4.435689] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/environment/path.dsv\n'}
+[4.436091] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/local_setup.bash\n'}
+[4.436393] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/local_setup.sh\n'}
+[4.436812] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/local_setup.zsh\n'}
+[4.436982] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/local_setup.dsv\n'}
+[4.437328] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/package.dsv\n'}
+[4.437647] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ament_index/resource_index/packages/ur_description\n'}
+[4.437914] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake\n'}
+[4.438139] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake\n'}
+[4.438578] (ur_description) StdoutLine: {'line': b'-- Installing: /home/bridgetw/cooking_robot/install/ur_description/share/ur_description/package.xml\n'}
+[4.441576] (ur_description) CommandEnded: {'returncode': 0}
+[4.484405] (ur_description) JobEnded: {'identifier': 'ur_description', 'rc': 0}
+[4.486020] (-) EventReactorShutdown: {}
