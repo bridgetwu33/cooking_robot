@@ -1,0 +1,20 @@
+[1.338s] Invoking command in '/home/bridgetw/cooking_robot/build/my_robot_controller': PYTHONPATH=/home/bridgetw/cooking_robot/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/bridgetw/cooking_robot/build/my_robot_controller/build --no-deps symlink_data
+[1.802s] running develop
+[1.803s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.803s]   warnings.warn(
+[2.058s] running egg_info
+[2.058s] writing my_robot_controller.egg-info/PKG-INFO
+[2.059s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[2.060s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[2.060s] writing requirements to my_robot_controller.egg-info/requires.txt
+[2.061s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[2.064s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[2.065s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[2.069s] running build_ext
+[2.070s] Creating /home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[2.071s] Installing draw script to /home/bridgetw/cooking_robot/install/my_robot_controller/lib/my_robot_controller
+[2.072s] Installing node script to /home/bridgetw/cooking_robot/install/my_robot_controller/lib/my_robot_controller
+[2.072s] 
+[2.073s] Installed /home/bridgetw/cooking_robot/build/my_robot_controller
+[2.073s] running symlink_data
+[2.120s] Invoked command in '/home/bridgetw/cooking_robot/build/my_robot_controller' returned '0': PYTHONPATH=/home/bridgetw/cooking_robot/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/bridgetw/cooking_robot/build/my_robot_controller/build --no-deps symlink_data

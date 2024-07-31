@@ -1,0 +1,46 @@
+[0.780s] Invoking command in '/home/bridgetw/cooking_robot/build/my_robot_controller': PYTHONPATH=/home/bridgetw/cooking_robot/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/bridgetw/cooking_robot/build/my_robot_controller/build
+[1.080s] running develop
+[1.081s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.081s]   warnings.warn(
+[1.265s] Removing /home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[1.303s] Invoked command in '/home/bridgetw/cooking_robot/build/my_robot_controller' returned '0': PYTHONPATH=/home/bridgetw/cooking_robot/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/bridgetw/cooking_robot/build/my_robot_controller/build
+[1.307s] Invoking command in '/home/bridgetw/cooking_robot/src/my_robot_controller': PYTHONPATH=/home/bridgetw/cooking_robot/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/bridgetw/cooking_robot/build/my_robot_controller/build install --record /home/bridgetw/cooking_robot/build/my_robot_controller/install.log --single-version-externally-managed install_data --force
+[1.645s] running egg_info
+[1.646s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[1.647s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[1.647s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[1.648s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[1.649s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[1.652s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.654s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.655s] running build
+[1.655s] running build_py
+[1.655s] copying my_robot_controller/draw.py -> /home/bridgetw/cooking_robot/build/my_robot_controller/build/lib/my_robot_controller
+[1.655s] copying my_robot_controller/controller.py -> /home/bridgetw/cooking_robot/build/my_robot_controller/build/lib/my_robot_controller
+[1.656s] copying my_robot_controller/pose_subscriber.py -> /home/bridgetw/cooking_robot/build/my_robot_controller/build/lib/my_robot_controller
+[1.656s] copying my_robot_controller/first_node.py -> /home/bridgetw/cooking_robot/build/my_robot_controller/build/lib/my_robot_controller
+[1.656s] running install
+[1.656s] running install_lib
+[1.658s] creating /home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.658s] copying /home/bridgetw/cooking_robot/build/my_robot_controller/build/lib/my_robot_controller/draw.py -> /home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.658s] copying /home/bridgetw/cooking_robot/build/my_robot_controller/build/lib/my_robot_controller/controller.py -> /home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.658s] copying /home/bridgetw/cooking_robot/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.659s] copying /home/bridgetw/cooking_robot/build/my_robot_controller/build/lib/my_robot_controller/pose_subscriber.py -> /home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.659s] copying /home/bridgetw/cooking_robot/build/my_robot_controller/build/lib/my_robot_controller/first_node.py -> /home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.659s] byte-compiling /home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/draw.py to draw.cpython-310.pyc
+[1.659s] byte-compiling /home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/controller.py to controller.cpython-310.pyc
+[1.660s] byte-compiling /home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[1.660s] byte-compiling /home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/pose_subscriber.py to pose_subscriber.cpython-310.pyc
+[1.660s] byte-compiling /home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/first_node.py to first_node.cpython-310.pyc
+[1.661s] running install_data
+[1.661s] copying resource/my_robot_controller -> /home/bridgetw/cooking_robot/install/my_robot_controller/share/ament_index/resource_index/packages
+[1.661s] copying package.xml -> /home/bridgetw/cooking_robot/install/my_robot_controller/share/my_robot_controller
+[1.662s] running install_egg_info
+[1.664s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[1.666s] running install_scripts
+[1.686s] Installing controller script to /home/bridgetw/cooking_robot/install/my_robot_controller/lib/my_robot_controller
+[1.687s] Installing draw script to /home/bridgetw/cooking_robot/install/my_robot_controller/lib/my_robot_controller
+[1.687s] Installing node script to /home/bridgetw/cooking_robot/install/my_robot_controller/lib/my_robot_controller
+[1.687s] Installing pose script to /home/bridgetw/cooking_robot/install/my_robot_controller/lib/my_robot_controller
+[1.688s] writing list of installed files to '/home/bridgetw/cooking_robot/build/my_robot_controller/install.log'
+[1.716s] Invoked command in '/home/bridgetw/cooking_robot/src/my_robot_controller' returned '0': PYTHONPATH=/home/bridgetw/cooking_robot/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/bridgetw/cooking_robot/build/my_robot_controller/build install --record /home/bridgetw/cooking_robot/build/my_robot_controller/install.log --single-version-externally-managed install_data --force

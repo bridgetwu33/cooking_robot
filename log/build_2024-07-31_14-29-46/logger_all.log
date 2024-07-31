@@ -1,0 +1,321 @@
+[0.476s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.476s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f0c1cdee3b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0c1cded930>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0c1cded930>>, mixin_verb=('build',))
+[0.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.627s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bridgetw/cooking_robot'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['ignore', 'ignore_ament_install']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ignore'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ignore_ament_install'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['colcon_pkg']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'colcon_pkg'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['colcon_meta']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'colcon_meta'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['ros']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ros'
+[0.653s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Description' with type 'ros.ament_cmake' and name 'ur_description'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/cooking_movement) by extensions ['ignore', 'ignore_ament_install']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/cooking_movement) by extension 'ignore'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/cooking_movement) by extension 'ignore_ament_install'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/cooking_movement) by extensions ['colcon_pkg']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/cooking_movement) by extension 'colcon_pkg'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/cooking_movement) by extensions ['colcon_meta']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/cooking_movement) by extension 'colcon_meta'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/cooking_movement) by extensions ['ros']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/cooking_movement) by extension 'ros'
+[0.656s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cooking_movement' with type 'ros.ament_python' and name 'cooking_movement'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins) by extension 'ignore'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins) by extension 'ignore_ament_install'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins) by extensions ['colcon_pkg']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins) by extension 'colcon_pkg'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins) by extensions ['colcon_meta']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins) by extension 'colcon_meta'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins) by extensions ['ros']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins) by extension 'ros'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins) by extensions ['cmake', 'python']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins) by extension 'cmake'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins) by extension 'python'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins) by extensions ['python_setup_py']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins) by extension 'python_setup_py'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen) by extensions ['ignore', 'ignore_ament_install']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen) by extension 'ignore'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen) by extension 'ignore_ament_install'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen) by extensions ['colcon_pkg']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen) by extension 'colcon_pkg'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen) by extensions ['colcon_meta']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen) by extension 'colcon_meta'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen) by extensions ['ros']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen) by extension 'ros'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen) by extensions ['cmake', 'python']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen) by extension 'cmake'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen) by extension 'python'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen) by extensions ['python_setup_py']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen) by extension 'python_setup_py'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials) by extension 'ignore'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials) by extension 'ignore_ament_install'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials) by extensions ['colcon_pkg']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials) by extension 'colcon_pkg'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials) by extensions ['colcon_meta']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials) by extension 'colcon_meta'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials) by extensions ['ros']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials) by extension 'ros'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials) by extensions ['cmake', 'python']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials) by extension 'cmake'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials) by extension 'python'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials) by extensions ['python_setup_py']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials) by extension 'python_setup_py'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials/textures) by extension 'ignore'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials/textures) by extension 'ignore_ament_install'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials/textures) by extensions ['colcon_pkg']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials/textures) by extension 'colcon_pkg'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials/textures) by extensions ['colcon_meta']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials/textures) by extension 'colcon_meta'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials/textures) by extensions ['ros']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials/textures) by extension 'ros'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials/textures) by extensions ['cmake', 'python']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials/textures) by extension 'cmake'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials/textures) by extension 'python'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials/textures) by extensions ['python_setup_py']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/materials/textures) by extension 'python_setup_py'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/meshes) by extension 'ignore'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/meshes) by extension 'ignore_ament_install'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/meshes) by extensions ['colcon_pkg']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/meshes) by extension 'colcon_pkg'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/meshes) by extensions ['colcon_meta']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/meshes) by extension 'colcon_meta'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/meshes) by extensions ['ros']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/meshes) by extension 'ros'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/meshes) by extensions ['cmake', 'python']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/meshes) by extension 'cmake'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/meshes) by extension 'python'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/meshes) by extensions ['python_setup_py']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_plugins/kitchen/meshes) by extension 'python_setup_py'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extension 'ignore'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extension 'ignore_ament_install'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extensions ['colcon_pkg']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extension 'colcon_pkg'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extensions ['colcon_meta']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extension 'colcon_meta'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extensions ['ros']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extension 'ros'
+[0.663s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_controller' with type 'ros.ament_python' and name 'my_robot_controller'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ignore'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ignore_ament_install'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['colcon_pkg']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'colcon_pkg'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['colcon_meta']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'colcon_meta'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['ros']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ros'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['cmake', 'python']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'cmake'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'python'
+[0.665s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_control' with type 'cmake' and name 'robot_control'
+[0.665s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.665s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.665s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.665s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.665s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.694s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.695s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.703s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/bridgetw/cooking_robot/install
+[0.705s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 370 installed packages in /opt/ros/humble
+[0.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.793s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'ur_description' is in: /home/bridgetw/cooking_robot/install/ur_description, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding ur_description
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'cooking_movement' build argument 'cmake_args' from command line to 'None'
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'cooking_movement' build argument 'cmake_target' from command line to 'None'
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'cooking_movement' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'cooking_movement' build argument 'cmake_clean_cache' from command line to 'False'
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'cooking_movement' build argument 'cmake_clean_first' from command line to 'False'
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'cooking_movement' build argument 'cmake_force_configure' from command line to 'False'
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'cooking_movement' build argument 'ament_cmake_args' from command line to 'None'
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'cooking_movement' build argument 'catkin_cmake_args' from command line to 'None'
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'cooking_movement' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.795s] DEBUG:colcon.colcon_core.verb:Building package 'cooking_movement' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bridgetw/cooking_robot/build/cooking_movement', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bridgetw/cooking_robot/install/cooking_movement', 'merge_install': False, 'path': '/home/bridgetw/cooking_robot/src/cooking_movement', 'symlink_install': False, 'test_result_base': None}
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_args' from command line to 'None'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_target' from command line to 'None'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.796s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bridgetw/cooking_robot/build/my_robot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bridgetw/cooking_robot/install/my_robot_controller', 'merge_install': False, 'path': '/home/bridgetw/cooking_robot/src/my_robot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_args' from command line to 'None'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target' from command line to 'None'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.797s] DEBUG:colcon.colcon_core.verb:Building package 'robot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bridgetw/cooking_robot/build/robot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bridgetw/cooking_robot/install/robot_control', 'merge_install': False, 'path': '/home/bridgetw/cooking_robot/src/robot_control', 'symlink_install': False, 'test_result_base': None}
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_args' from command line to 'None'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target' from command line to 'None'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.798s] DEBUG:colcon.colcon_core.verb:Building package 'ur_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bridgetw/cooking_robot/build/ur_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bridgetw/cooking_robot/install/ur_description', 'merge_install': False, 'path': '/home/bridgetw/cooking_robot/src/Universal_Robots_ROS2_Description', 'symlink_install': False, 'test_result_base': None}
+[0.798s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.799s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.800s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bridgetw/cooking_robot/src/cooking_movement' with build type 'ament_python'
+[0.800s] Level 1:colcon.colcon_core.shell:create_environment_hook('cooking_movement', 'ament_prefix_path')
+[0.811s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bridgetw/cooking_robot/install/cooking_movement/share/cooking_movement/hook/ament_prefix_path.ps1'
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bridgetw/cooking_robot/install/cooking_movement/share/cooking_movement/hook/ament_prefix_path.dsv'
+[0.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bridgetw/cooking_robot/install/cooking_movement/share/cooking_movement/hook/ament_prefix_path.sh'
+[0.818s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.818s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.823s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bridgetw/cooking_robot/src/my_robot_controller' with build type 'ament_python'
+[0.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_controller', 'ament_prefix_path')
+[0.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bridgetw/cooking_robot/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.ps1'
+[0.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bridgetw/cooking_robot/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.dsv'
+[0.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bridgetw/cooking_robot/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.sh'
+[0.826s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.827s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.831s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bridgetw/cooking_robot/src/robot_control'
+[0.832s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.832s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.837s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bridgetw/cooking_robot/src/Universal_Robots_ROS2_Description' with build type 'ament_cmake'
+[0.838s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bridgetw/cooking_robot/src/Universal_Robots_ROS2_Description'
+[0.839s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.839s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.138s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bridgetw/cooking_robot/src/cooking_movement'
+[1.139s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.139s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.426s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'my_robot_controller' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.426s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'my_robot_controller' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.426s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bridgetw/cooking_robot/src/my_robot_controller'
+[1.427s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.427s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bridgetw/cooking_robot/build/robot_control': /usr/bin/cmake /home/bridgetw/cooking_robot/src/robot_control -DCMAKE_INSTALL_PREFIX=/home/bridgetw/cooking_robot/install/robot_control
+[1.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bridgetw/cooking_robot/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bridgetw/cooking_robot/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/bridgetw/cooking_robot/build/ur_description -- -j8 -l8
+[1.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bridgetw/cooking_robot/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bridgetw/cooking_robot/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/bridgetw/cooking_robot/build/ur_description -- -j8 -l8
+[1.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bridgetw/cooking_robot/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bridgetw/cooking_robot/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/bridgetw/cooking_robot/build/ur_description
+[1.558s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[1.560s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bridgetw/cooking_robot/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bridgetw/cooking_robot/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/bridgetw/cooking_robot/build/ur_description
+[1.567s] Level 1:colcon.colcon_core.environment:checking '/home/bridgetw/cooking_robot/install/ur_description' for CMake module files
+[1.567s] Level 1:colcon.colcon_core.environment:checking '/home/bridgetw/cooking_robot/install/ur_description' for CMake config files
+[1.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[1.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bridgetw/cooking_robot/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[1.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bridgetw/cooking_robot/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[1.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bridgetw/cooking_robot/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/bridgetw/cooking_robot/install/ur_description/bin'
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/bridgetw/cooking_robot/install/ur_description/lib/pkgconfig/ur_description.pc'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/bridgetw/cooking_robot/install/ur_description/lib/python3.10/site-packages'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/bridgetw/cooking_robot/install/ur_description/bin'
+[1.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/bridgetw/cooking_robot/install/ur_description/share/ur_description/package.ps1'
+[1.573s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bridgetw/cooking_robot/install/ur_description/share/ur_description/package.dsv'
+[1.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/bridgetw/cooking_robot/install/ur_description/share/ur_description/package.sh'
+[1.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/bridgetw/cooking_robot/install/ur_description/share/ur_description/package.bash'
+[1.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/bridgetw/cooking_robot/install/ur_description/share/ur_description/package.zsh'
+[1.578s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bridgetw/cooking_robot/install/ur_description/share/colcon-core/packages/ur_description)
+[1.597s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[1.598s] Level 1:colcon.colcon_core.environment:checking '/home/bridgetw/cooking_robot/install/ur_description' for CMake module files
+[1.598s] Level 1:colcon.colcon_core.environment:checking '/home/bridgetw/cooking_robot/install/ur_description' for CMake config files
+[1.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[1.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bridgetw/cooking_robot/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[1.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bridgetw/cooking_robot/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[1.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bridgetw/cooking_robot/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[1.601s] Level 1:colcon.colcon_core.environment:checking '/home/bridgetw/cooking_robot/install/ur_description/bin'
+[1.602s] Level 1:colcon.colcon_core.environment:checking '/home/bridgetw/cooking_robot/install/ur_description/lib/pkgconfig/ur_description.pc'
+[1.602s] Level 1:colcon.colcon_core.environment:checking '/home/bridgetw/cooking_robot/install/ur_description/lib/python3.10/site-packages'
+[1.602s] Level 1:colcon.colcon_core.environment:checking '/home/bridgetw/cooking_robot/install/ur_description/bin'
+[1.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/bridgetw/cooking_robot/install/ur_description/share/ur_description/package.ps1'
+[1.604s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bridgetw/cooking_robot/install/ur_description/share/ur_description/package.dsv'
+[1.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/bridgetw/cooking_robot/install/ur_description/share/ur_description/package.sh'
+[1.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/bridgetw/cooking_robot/install/ur_description/share/ur_description/package.bash'
+[1.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/bridgetw/cooking_robot/install/ur_description/share/ur_description/package.zsh'
+[1.606s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bridgetw/cooking_robot/install/ur_description/share/colcon-core/packages/ur_description)
+[2.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bridgetw/cooking_robot/src/cooking_movement': PYTHONPATH=/home/bridgetw/cooking_robot/build/cooking_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bridgetw/cooking_robot/install/cooking_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cooking_movement build --build-base /home/bridgetw/cooking_robot/build/cooking_movement/build install --record /home/bridgetw/cooking_robot/build/cooking_movement/install.log --single-version-externally-managed install_data
+[2.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bridgetw/cooking_robot/src/my_robot_controller': PYTHONPATH=/home/bridgetw/cooking_robot/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/bridgetw/cooking_robot/build/my_robot_controller/build install --record /home/bridgetw/cooking_robot/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[2.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bridgetw/cooking_robot/src/my_robot_controller' returned '1': PYTHONPATH=/home/bridgetw/cooking_robot/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/bridgetw/cooking_robot/build/my_robot_controller/build install --record /home/bridgetw/cooking_robot/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[4.277s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.278s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.278s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[4.278s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.469s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.469s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.469s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.469s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.473s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[4.473s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.473s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bridgetw/cooking_robot/install/local_setup.ps1'
+[4.475s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bridgetw/cooking_robot/install/_local_setup_util_ps1.py'
+[4.477s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bridgetw/cooking_robot/install/setup.ps1'
+[4.479s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bridgetw/cooking_robot/install/local_setup.sh'
+[4.481s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bridgetw/cooking_robot/install/_local_setup_util_sh.py'
+[4.481s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bridgetw/cooking_robot/install/setup.sh'
+[4.483s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bridgetw/cooking_robot/install/local_setup.bash'
+[4.484s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bridgetw/cooking_robot/install/setup.bash'
+[4.486s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bridgetw/cooking_robot/install/local_setup.zsh'
+[4.487s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bridgetw/cooking_robot/install/setup.zsh'

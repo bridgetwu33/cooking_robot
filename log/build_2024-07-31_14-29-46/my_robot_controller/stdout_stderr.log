@@ -1,0 +1,19 @@
+running egg_info
+creating ../../build/my_robot_controller/robot_controller.egg-info
+writing ../../build/my_robot_controller/robot_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_robot_controller/robot_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/my_robot_controller/robot_controller.egg-info/entry_points.txt
+writing requirements to ../../build/my_robot_controller/robot_controller.egg-info/requires.txt
+writing top-level names to ../../build/my_robot_controller/robot_controller.egg-info/top_level.txt
+writing manifest file '../../build/my_robot_controller/robot_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_robot_controller/robot_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_robot_controller/robot_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_robot_controller/controller.py -> /home/bridgetw/cooking_robot/build/my_robot_controller/build/lib/my_robot_controller
+running install
+running install_lib
+copying /home/bridgetw/cooking_robot/build/my_robot_controller/build/lib/my_robot_controller/controller.py -> /home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+byte-compiling /home/bridgetw/cooking_robot/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/controller.py to controller.cpython-310.pyc
+running install_data
+error: can't copy 'resource/robot_controller': doesn't exist or not a regular file

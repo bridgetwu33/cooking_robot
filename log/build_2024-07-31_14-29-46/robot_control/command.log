@@ -1,0 +1,1 @@
+Invoking command in '/home/bridgetw/cooking_robot/build/robot_control': /usr/bin/cmake /home/bridgetw/cooking_robot/src/robot_control -DCMAKE_INSTALL_PREFIX=/home/bridgetw/cooking_robot/install/robot_control

@@ -1,0 +1,29 @@
+[0.605s] Invoking command in '/home/bridgetw/cooking_robot/build/robot_control': /usr/bin/cmake /home/bridgetw/cooking_robot/src/robot_control -DCMAKE_INSTALL_PREFIX=/home/bridgetw/cooking_robot/install/robot_control
+[0.616s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.617s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.617s]   contain a literal, direct call to the project() command.  Add a line of
+[0.617s]   code such as
+[0.618s] 
+[0.621s]     project(ProjectName)
+[0.621s] 
+[0.621s]   near the top of the file, but after cmake_minimum_required().
+[0.622s] 
+[0.622s]   CMake is pretending there is a "project(Project)" command on the first
+[0.622s]   line.
+[0.622s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.622s] [0m
+[0.851s] -- The C compiler identification is GNU 11.4.0
+[1.666s] -- The CXX compiler identification is GNU 11.4.0
+[2.704s] -- Detecting C compiler ABI info
+[3.075s] -- Detecting C compiler ABI info - done
+[3.084s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.086s] -- Detecting C compile features
+[3.087s] -- Detecting C compile features - done
+[3.093s] -- Detecting CXX compiler ABI info
+[3.417s] -- Detecting CXX compiler ABI info - done
+[3.426s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.426s] -- Detecting CXX compile features
+[3.426s] -- Detecting CXX compile features - done
+[3.427s] -- Configuring done
+[3.429s] -- Generating done
+[3.430s] -- Build files have been written to: /home/bridgetw/cooking_robot/build/robot_control

@@ -1,0 +1,47 @@
+[0.016s] Invoking command in '/home/bridgetw/cooking_robot/gazebo/build/ur_simulation_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bridgetw/cooking_robot/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/bridgetw/cooking_robot/gazebo/src/ur_simulation_gz/ur_simulation_gz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bridgetw/cooking_robot/gazebo/install/ur_simulation_gz
+[0.204s] -- The C compiler identification is GNU 11.4.0
+[0.722s] -- The CXX compiler identification is GNU 11.4.0
+[1.098s] -- Detecting C compiler ABI info
+[1.234s] -- Detecting C compiler ABI info - done
+[1.240s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.242s] -- Detecting C compile features
+[1.243s] -- Detecting C compile features - done
+[1.248s] -- Detecting CXX compiler ABI info
+[1.410s] -- Detecting CXX compiler ABI info - done
+[1.417s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.418s] -- Detecting CXX compile features
+[1.418s] -- Detecting CXX compile features - done
+[1.429s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.588s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.659s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.726s] -- Found ament_cmake_pytest: 1.3.9 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[2.076s] -- Configuring done
+[2.078s] -- Generating done
+[2.079s] -- Build files have been written to: /home/bridgetw/cooking_robot/gazebo/build/ur_simulation_gz
+[2.084s] Invoked command in '/home/bridgetw/cooking_robot/gazebo/build/ur_simulation_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bridgetw/cooking_robot/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/bridgetw/cooking_robot/gazebo/src/ur_simulation_gz/ur_simulation_gz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bridgetw/cooking_robot/gazebo/install/ur_simulation_gz
+[2.086s] Invoking command in '/home/bridgetw/cooking_robot/gazebo/build/ur_simulation_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bridgetw/cooking_robot/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/bridgetw/cooking_robot/gazebo/build/ur_simulation_gz -- -j8 -l8
+[2.115s] Invoked command in '/home/bridgetw/cooking_robot/gazebo/build/ur_simulation_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bridgetw/cooking_robot/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/bridgetw/cooking_robot/gazebo/build/ur_simulation_gz -- -j8 -l8
+[2.144s] Invoking command in '/home/bridgetw/cooking_robot/gazebo/build/ur_simulation_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bridgetw/cooking_robot/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/bridgetw/cooking_robot/gazebo/build/ur_simulation_gz
+[2.148s] -- Install configuration: ""
+[2.149s] -- Execute custom install script
+[2.150s] -- Symlinking: /home/bridgetw/cooking_robot/gazebo/install/ur_simulation_gz/share/ur_simulation_gz/config/ur_controllers.yaml
+[2.156s] -- Symlinking: /home/bridgetw/cooking_robot/gazebo/install/ur_simulation_gz/share/ur_simulation_gz/launch/ur_sim_control.launch.py
+[2.162s] -- Symlinking: /home/bridgetw/cooking_robot/gazebo/install/ur_simulation_gz/share/ur_simulation_gz/launch/ur_sim_moveit.launch.py
+[2.169s] -- Symlinking: /home/bridgetw/cooking_robot/gazebo/install/ur_simulation_gz/share/ur_simulation_gz/urdf/ur_gz.ros2_control.xacro
+[2.175s] -- Symlinking: /home/bridgetw/cooking_robot/gazebo/install/ur_simulation_gz/share/ur_simulation_gz/urdf/ur_gz.urdf.xacro
+[2.182s] -- Symlinking: /home/bridgetw/cooking_robot/gazebo/install/ur_simulation_gz/share/ament_index/resource_index/package_run_dependencies/ur_simulation_gz
+[2.188s] -- Symlinking: /home/bridgetw/cooking_robot/gazebo/install/ur_simulation_gz/share/ament_index/resource_index/parent_prefix_path/ur_simulation_gz
+[2.194s] -- Symlinking: /home/bridgetw/cooking_robot/gazebo/install/ur_simulation_gz/share/ur_simulation_gz/environment/ament_prefix_path.sh
+[2.201s] -- Symlinking: /home/bridgetw/cooking_robot/gazebo/install/ur_simulation_gz/share/ur_simulation_gz/environment/ament_prefix_path.dsv
+[2.207s] -- Symlinking: /home/bridgetw/cooking_robot/gazebo/install/ur_simulation_gz/share/ur_simulation_gz/environment/path.sh
+[2.215s] -- Symlinking: /home/bridgetw/cooking_robot/gazebo/install/ur_simulation_gz/share/ur_simulation_gz/environment/path.dsv
+[2.221s] -- Symlinking: /home/bridgetw/cooking_robot/gazebo/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.bash
+[2.228s] -- Symlinking: /home/bridgetw/cooking_robot/gazebo/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.sh
+[2.235s] -- Symlinking: /home/bridgetw/cooking_robot/gazebo/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.zsh
+[2.242s] -- Symlinking: /home/bridgetw/cooking_robot/gazebo/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.dsv
+[2.249s] -- Symlinking: /home/bridgetw/cooking_robot/gazebo/install/ur_simulation_gz/share/ur_simulation_gz/package.dsv
+[2.256s] -- Symlinking: /home/bridgetw/cooking_robot/gazebo/install/ur_simulation_gz/share/ament_index/resource_index/packages/ur_simulation_gz
+[2.262s] -- Symlinking: /home/bridgetw/cooking_robot/gazebo/install/ur_simulation_gz/share/ur_simulation_gz/cmake/ur_simulation_gzConfig.cmake
+[2.269s] -- Symlinking: /home/bridgetw/cooking_robot/gazebo/install/ur_simulation_gz/share/ur_simulation_gz/cmake/ur_simulation_gzConfig-version.cmake
+[2.276s] -- Symlinking: /home/bridgetw/cooking_robot/gazebo/install/ur_simulation_gz/share/ur_simulation_gz/package.xml
+[2.284s] Invoked command in '/home/bridgetw/cooking_robot/gazebo/build/ur_simulation_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bridgetw/cooking_robot/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/bridgetw/cooking_robot/gazebo/build/ur_simulation_gz

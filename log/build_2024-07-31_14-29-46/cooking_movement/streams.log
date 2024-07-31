@@ -1,0 +1,32 @@
+[1.206s] Invoking command in '/home/bridgetw/cooking_robot/src/cooking_movement': PYTHONPATH=/home/bridgetw/cooking_robot/build/cooking_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bridgetw/cooking_robot/install/cooking_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cooking_movement build --build-base /home/bridgetw/cooking_robot/build/cooking_movement/build install --record /home/bridgetw/cooking_robot/build/cooking_movement/install.log --single-version-externally-managed install_data
+[1.477s] running egg_info
+[1.478s] creating ../../build/cooking_movement/cooking_movement.egg-info
+[1.479s] writing ../../build/cooking_movement/cooking_movement.egg-info/PKG-INFO
+[1.479s] writing dependency_links to ../../build/cooking_movement/cooking_movement.egg-info/dependency_links.txt
+[1.479s] writing entry points to ../../build/cooking_movement/cooking_movement.egg-info/entry_points.txt
+[1.479s] writing requirements to ../../build/cooking_movement/cooking_movement.egg-info/requires.txt
+[1.479s] writing top-level names to ../../build/cooking_movement/cooking_movement.egg-info/top_level.txt
+[1.480s] writing manifest file '../../build/cooking_movement/cooking_movement.egg-info/SOURCES.txt'
+[1.481s] reading manifest file '../../build/cooking_movement/cooking_movement.egg-info/SOURCES.txt'
+[1.482s] writing manifest file '../../build/cooking_movement/cooking_movement.egg-info/SOURCES.txt'
+[1.482s] running build
+[1.482s] running build_py
+[1.483s] creating /home/bridgetw/cooking_robot/build/cooking_movement/build
+[1.483s] creating /home/bridgetw/cooking_robot/build/cooking_movement/build/lib
+[1.483s] creating /home/bridgetw/cooking_robot/build/cooking_movement/build/lib/cooking_movement
+[1.483s] copying cooking_movement/__init__.py -> /home/bridgetw/cooking_robot/build/cooking_movement/build/lib/cooking_movement
+[1.484s] running install
+[1.484s] running install_lib
+[1.485s] creating /home/bridgetw/cooking_robot/install/cooking_movement/lib/python3.10/site-packages/cooking_movement
+[1.485s] copying /home/bridgetw/cooking_robot/build/cooking_movement/build/lib/cooking_movement/__init__.py -> /home/bridgetw/cooking_robot/install/cooking_movement/lib/python3.10/site-packages/cooking_movement
+[1.485s] byte-compiling /home/bridgetw/cooking_robot/install/cooking_movement/lib/python3.10/site-packages/cooking_movement/__init__.py to __init__.cpython-310.pyc
+[1.486s] running install_data
+[1.486s] creating /home/bridgetw/cooking_robot/install/cooking_movement/share/ament_index
+[1.486s] creating /home/bridgetw/cooking_robot/install/cooking_movement/share/ament_index/resource_index
+[1.486s] creating /home/bridgetw/cooking_robot/install/cooking_movement/share/ament_index/resource_index/packages
+[1.487s] copying resource/cooking_movement -> /home/bridgetw/cooking_robot/install/cooking_movement/share/ament_index/resource_index/packages
+[1.487s] copying package.xml -> /home/bridgetw/cooking_robot/install/cooking_movement/share/cooking_movement
+[1.487s] running install_egg_info
+[1.489s] Copying ../../build/cooking_movement/cooking_movement.egg-info to /home/bridgetw/cooking_robot/install/cooking_movement/lib/python3.10/site-packages/cooking_movement-0.0.0-py3.10.egg-info
+[1.490s] running install_scripts
+[1.525s] writing list of installed files to '/home/bridgetw/cooking_robot/build/cooking_movement/install.log'

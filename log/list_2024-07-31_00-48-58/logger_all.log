@@ -1,0 +1,150 @@
+[0.439s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/bridgetw/cooking_robot']
+[0.439s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/bridgetw/cooking_robot'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f4741d2f130>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f4741e2ad10>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f4741e2ad10>>, mixin_verb=('list',))
+[0.877s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.877s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.877s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.877s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.877s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.877s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bridgetw/cooking_robot'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot) by extension 'ignore'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot) by extension 'ignore_ament_install'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot) by extensions ['colcon_pkg']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot) by extension 'colcon_pkg'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot) by extensions ['colcon_meta']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot) by extension 'colcon_meta'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot) by extensions ['ros']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot) by extension 'ros'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot) by extensions ['cmake', 'python']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot) by extension 'cmake'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot) by extension 'python'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot) by extensions ['python_setup_py']
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot) by extension 'python_setup_py'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/build) by extensions ['ignore', 'ignore_ament_install']
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/build) by extension 'ignore'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/build) ignored
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/install) by extensions ['ignore', 'ignore_ament_install']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/install) by extension 'ignore'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/install) ignored
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/log) by extensions ['ignore', 'ignore_ament_install']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/log) by extension 'ignore'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/log) ignored
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src) by extensions ['ignore', 'ignore_ament_install']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src) by extension 'ignore'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src) by extension 'ignore_ament_install'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src) by extensions ['colcon_pkg']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src) by extension 'colcon_pkg'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src) by extensions ['colcon_meta']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src) by extension 'colcon_meta'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src) by extensions ['ros']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src) by extension 'ros'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src) by extensions ['cmake', 'python']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src) by extension 'cmake'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src) by extension 'python'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src) by extensions ['python_setup_py']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src) by extension 'python_setup_py'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/Universal_Robots_ROS2_Description) by extensions ['ignore', 'ignore_ament_install']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/Universal_Robots_ROS2_Description) by extension 'ignore'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/Universal_Robots_ROS2_Description) by extension 'ignore_ament_install'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/Universal_Robots_ROS2_Description) by extensions ['colcon_pkg']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/Universal_Robots_ROS2_Description) by extension 'colcon_pkg'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/Universal_Robots_ROS2_Description) by extensions ['colcon_meta']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/Universal_Robots_ROS2_Description) by extension 'colcon_meta'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/Universal_Robots_ROS2_Description) by extensions ['ros']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/Universal_Robots_ROS2_Description) by extension 'ros'
+[0.912s] DEBUG:colcon.colcon_core.package_identification:Package '/home/bridgetw/cooking_robot/src/Universal_Robots_ROS2_Description' with type 'ros.ament_cmake' and name 'ur_description'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins) by extension 'ignore'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins) by extension 'ignore_ament_install'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins) by extensions ['colcon_pkg']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins) by extension 'colcon_pkg'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins) by extensions ['colcon_meta']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins) by extension 'colcon_meta'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins) by extensions ['ros']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins) by extension 'ros'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins) by extensions ['cmake', 'python']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins) by extension 'cmake'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins) by extension 'python'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins) by extensions ['python_setup_py']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins) by extension 'python_setup_py'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen) by extensions ['ignore', 'ignore_ament_install']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen) by extension 'ignore'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen) by extension 'ignore_ament_install'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen) by extensions ['colcon_pkg']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen) by extension 'colcon_pkg'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen) by extensions ['colcon_meta']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen) by extension 'colcon_meta'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen) by extensions ['ros']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen) by extension 'ros'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen) by extensions ['cmake', 'python']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen) by extension 'cmake'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen) by extension 'python'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen) by extensions ['python_setup_py']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen) by extension 'python_setup_py'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials) by extension 'ignore'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials) by extension 'ignore_ament_install'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials) by extensions ['colcon_pkg']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials) by extension 'colcon_pkg'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials) by extensions ['colcon_meta']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials) by extension 'colcon_meta'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials) by extensions ['ros']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials) by extension 'ros'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials) by extensions ['cmake', 'python']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials) by extension 'cmake'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials) by extension 'python'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials) by extensions ['python_setup_py']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials) by extension 'python_setup_py'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials/textures) by extension 'ignore'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials/textures) by extension 'ignore_ament_install'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials/textures) by extensions ['colcon_pkg']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials/textures) by extension 'colcon_pkg'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials/textures) by extensions ['colcon_meta']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials/textures) by extension 'colcon_meta'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials/textures) by extensions ['ros']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials/textures) by extension 'ros'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials/textures) by extensions ['cmake', 'python']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials/textures) by extension 'cmake'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials/textures) by extension 'python'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials/textures) by extensions ['python_setup_py']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/materials/textures) by extension 'python_setup_py'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/meshes) by extension 'ignore'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/meshes) by extension 'ignore_ament_install'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/meshes) by extensions ['colcon_pkg']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/meshes) by extension 'colcon_pkg'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/meshes) by extensions ['colcon_meta']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/meshes) by extension 'colcon_meta'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/meshes) by extensions ['ros']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/meshes) by extension 'ros'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/meshes) by extensions ['cmake', 'python']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/meshes) by extension 'cmake'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/meshes) by extension 'python'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/meshes) by extensions ['python_setup_py']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/gazebo_plugins/kitchen/meshes) by extension 'python_setup_py'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/my_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/my_robot_controller) by extension 'ignore'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/my_robot_controller) by extension 'ignore_ament_install'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/my_robot_controller) by extensions ['colcon_pkg']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/my_robot_controller) by extension 'colcon_pkg'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/my_robot_controller) by extensions ['colcon_meta']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/my_robot_controller) by extension 'colcon_meta'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/my_robot_controller) by extensions ['ros']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/my_robot_controller) by extension 'ros'
+[0.921s] DEBUG:colcon.colcon_core.package_identification:Package '/home/bridgetw/cooking_robot/src/my_robot_controller' with type 'ros.ament_python' and name 'my_robot_controller'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/robot_control) by extension 'ignore'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/robot_control) by extension 'ignore_ament_install'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/robot_control) by extensions ['colcon_pkg']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/robot_control) by extension 'colcon_pkg'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/robot_control) by extensions ['colcon_meta']
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/robot_control) by extension 'colcon_meta'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/robot_control) by extensions ['ros']
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/robot_control) by extension 'ros'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/robot_control) by extensions ['cmake', 'python']
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/robot_control) by extension 'cmake'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/robot_control) by extension 'python'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/robot_control) by extensions ['python_setup_py']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bridgetw/cooking_robot/src/robot_control) by extension 'python_setup_py'
+[0.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
